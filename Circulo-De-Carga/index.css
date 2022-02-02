@@ -1,0 +1,321 @@
+body {background-color: #eeeeee;}
+
+
+.b {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+/* width:28px;height:28px; */
+
+.d {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+}
+
+.e {
+  width: 100%;
+  height: 100%;
+}
+
+.b.c .e {
+  animation: 1568ms linear 0s infinite normal none running s1;
+}
+
+.f {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.g {
+  border-color: rgb(66, 133, 244);
+}
+
+.p {
+  border-color: rgb(219, 68, 55);
+}
+
+.r {
+  border-color: rgb(244, 180, 0);
+}
+
+.t {
+  border-color: rgb(15, 157, 88);
+}
+
+.b.c .f.g {
+  animation: 5332ms cubic-bezier(0.4, 0, 0.2, 1) 0s infinite normal both running s2, 5332ms cubic-bezier(0.4, 0, 0.2, 1) 0s infinite normal both running blue;
+}
+
+.b.c .f.p {
+  animation: 5332ms cubic-bezier(0.4, 0, 0.2, 1) 0s infinite normal both running s2, 5332ms cubic-bezier(0.4, 0, 0.2, 1) 0s infinite normal both running red;
+}
+
+.b.c .f.r {
+  animation: 5332ms cubic-bezier(0.4, 0, 0.2, 1) 0s infinite normal both running s2, 5332ms cubic-bezier(0.4, 0, 0.2, 1) 0s infinite normal both running yellow;
+}
+
+.b.c .f.t {
+  animation: 5332ms cubic-bezier(0.4, 0, 0.2, 1) 0s infinite normal both running s2, 5332ms cubic-bezier(0.4, 0, 0.2, 1) 0s infinite normal both running green;
+}
+
+
+
+.m {
+  position: absolute;
+  box-sizing: border-box;
+  top: 0px;
+  left: 45%;
+  width: 10%;
+  height: 100%;
+  overflow: hidden;
+  border-color: inherit;
+}
+
+.m .k {
+  width: 1000%;
+  left: -450%;
+}
+
+.i {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  border-color: inherit;
+}
+
+.i .k {
+  width: 200%;
+}
+
+
+
+.k {
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  height: 100%;
+  border-width: 5px; /* 3px */
+  border-style: solid;
+  border-top-color: inherit;
+  border-right-color: inherit;
+  border-left-color: inherit;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  animation: 0s ease 0s 1 normal none running none;
+}
+
+.i.j .k {
+  border-right-color: transparent;
+  transform: rotate(129deg);
+}
+
+.i.o .k {
+  left: -100%;
+  border-left-color: transparent;
+  transform: rotate(-129deg);
+}
+
+.b.c .i.j .k {
+  animation: 1333ms cubic-bezier(0.4, 0, 0.2, 1) 0s infinite normal both running left;
+}
+
+.b.c .i.o .k {
+  animation: 1333ms cubic-bezier(0.4, 0, 0.2, 1) 0s infinite normal both running right;
+}
+
+.b.sf4e6b .e {
+  animation: 1568ms linear 0s infinite normal none running s1, 400ms cubic-bezier(0.4, 0, 0.2, 1) 0s 1 normal none running fade;
+}
+
+
+@keyframes s1 {
+ 
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes s2 {
+ 
+  12.5% {
+    transform: rotate(135deg);
+  }
+
+  25% {
+    transform: rotate(270deg);
+  }
+
+  37.5% {
+    transform: rotate(405deg);
+  }
+
+  50% {
+    transform: rotate(540deg);
+  }
+
+  62.5% {
+    transform: rotate(675deg);
+  }
+
+  75% {
+    transform: rotate(810deg);
+  }
+
+  87.5% {
+    transform: rotate(945deg);
+  }
+
+  100% {
+    transform: rotate(1080deg);
+  }
+}
+
+@keyframes blue {
+ 
+  0% {
+    opacity: 0.99;
+  }
+
+  25% {
+    opacity: 0.99;
+  }
+
+  26% {
+    opacity: 0;
+  }
+
+  89% {
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 0.99;
+  }
+
+  100% {
+    opacity: 0.99;
+  }
+}
+
+@keyframes red {
+ 
+  0% {
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.99;
+  }
+
+  50% {
+    opacity: 0.99;
+  }
+
+  51% {
+    opacity: 0;
+  }
+}
+
+@keyframes yellow {
+ 
+  0% {
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.99;
+  }
+
+  75% {
+    opacity: 0.99;
+  }
+
+  76% {
+    opacity: 0;
+  }
+}
+
+@keyframes green {
+ 
+  0% {
+    opacity: 0;
+  }
+
+  65% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 0.99;
+  }
+
+  90% {
+    opacity: 0.99;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes left {
+ 
+  0% {
+    transform: rotate(130deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(130deg);
+  }
+}
+
+@keyframes right {
+ 
+  0% {
+    transform: rotate(-130deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(-130deg);
+  }
+}
+
+@keyframes fade {
+ 
+  0% {
+    opacity: 0.99;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.a {
+  text-align: center;
+  margin-top: 51%;
+}
